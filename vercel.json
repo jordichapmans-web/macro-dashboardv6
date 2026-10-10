@@ -1,0 +1,6 @@
+{
+  "crons": [
+    { "path": "/api/cron/regime-check", "schedule": "0 13 * * *" },
+    { "path": "/api/cron/narrative-check", "schedule": "30 13 * * *" }
+  ]
+}
